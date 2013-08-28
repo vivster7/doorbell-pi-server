@@ -10,7 +10,7 @@ def hello(name=None):
   pygame.mixer.init()
   pygame.mixer.music.load('doorbell.mp3')
   pygame.mixer.music.play()
-  time.sleep(20)
+  time.sleep(4)
 
 #   return render_template('hello.html') 
 
